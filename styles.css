@@ -8,6 +8,7 @@
 body {
     display: flex;
     justify-content: center;
+    background-color: #314d74;
 }
 
 button{
@@ -15,15 +16,20 @@ button{
     width: 50%;
     min-height: 1.7rem;
     border: none;
+    transition: 1s;
+}
+button:hover {
+    border: 2px solid #10B981;
+    cursor: pointer;
 }
 .passwordCard {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
     align-content: start;
-    max-width: 60%;
+    max-width: 40vw;
     min-height: 400px;
-    min-width: 43vw;
+    min-width: 40vw;
     gap: 20px;
     padding: 40px;
     justify-content: center;
@@ -46,9 +52,13 @@ section > p {
     height: 2rem;
 }
 
-#generated-pwd1, #generated-pwd2{
+.genpwdbtn{
     background-color: #273549;
     color: #55F991;
+}
+.genpwdbtn:hover{
+    background-color: #314d74;
+
 }
 .generatedpwds{
     display: flex;
