@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border-radius: 6px;
+    width: 50%;
+    min-height: 1.7rem;
+    border: none;
+}
+.passwordCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    align-content: start;
+    max-width: 60%;
+    min-height: 400px;
+    min-width: 43vw;
+    gap: 20px;
+    padding: 40px;
+    justify-content: center;
+    align-content: start;
+}
+.generate {
+    color: white;
+    font-size: 2.1rem;
+}
+.rndpasswordh1{
+    color: #4ADF86;
+    font-size: 2.0rem;
+}
+section > p {
+    color: white;
+}
+#generate-btn{
+    background-color: #10B981;
+    color: white;
+    width: 40%;
+    height: 2rem;
+}
+
+#generated-pwd1, #generated-pwd2{
+    background-color: #273549;
+    color: #55F991;
+}
+.generatedpwds{
+    display: flex;
+    gap: 30px;
+}
+.line {
+    display: flex;
+    height: 2px;
+    background-color: #2F3E53;
+}
